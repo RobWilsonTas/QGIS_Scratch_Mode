@@ -1,4 +1,4 @@
-If you want the ability for others to open up and qgis project and screw around with the layers, but don't want them to accidentally save changes, this is helpful
+If you want the ability for others to open up a qgis project and screw around with the layers, but don't want them to accidentally save changes, this is helpful
 
 This copies a QGIS project file to a temp AppData path, and takes all of the relative pathed data along with it
 
