@@ -23,7 +23,7 @@ try {
 	$latestQgisFolder = Get-ChildItem "C:\Program Files" -Directory | Where-Object { $_.Name -like "QGIS *" } | Sort-Object Name -Descending | Select-Object -First 1
 	$qgisLauncher = Join-Path $latestQgisFolder.FullName "bin\python-qgis-ltr.bat"
 	$qgsExe = Join-Path $latestQgisFolder.FullName "bin\qgis-ltr-bin.exe"
-    $headlessPythonScript = "C:\THEPATHTOTHEPYTHONFILE\QGISProjectScratch_Headless.py"
+    $headlessPythonScript = "C:\THEPATHTOTHEPYTHONFILE\QGISProjectScratch_Headless.py" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
     #Launch QGIS in headless mode, with the script, project file, and qgis executable as parameters
     $argumentsForQgis = "`"$headlessPythonScript`" `"$projectFile`" `"$qgsExe`""
