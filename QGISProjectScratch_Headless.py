@@ -17,7 +17,7 @@ try:
     #Define the temp directory in the user's app data to hold the project and its files
     sourceProjectFolder = os.path.dirname(projectFilePath)
     projectBaseName = os.path.splitext(os.path.basename(projectFilePath))[0].replace("_", "")
-    temporaryProjectFolder = os.path.join(tempfile.gettempdir(), "NB")
+    temporaryProjectFolder = os.path.join(tempfile.gettempdir(), "QGS")
     maximumFileSizeBytes = 50 * 1024 * 1024
 
     #Clear old temporary files from the app data folder
