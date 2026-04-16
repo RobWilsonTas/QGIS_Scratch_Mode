@@ -2,7 +2,7 @@ If you want the ability for others to open up a qgis project and screw around wi
 
 This copies a QGIS project file to a temp AppData path, and takes all of the relative pathed data along with it
 
-It works by setting up 3 files
+It works by you setting up 3 files
 
 1. The headless scratch .py
 2. The scratch booter powershell script
