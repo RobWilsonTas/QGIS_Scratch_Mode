@@ -10,4 +10,4 @@ It works by you setting up 3 files
 
 The shortcut should have the Target as <b>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\YOURFOLDER\QGISProjectScratchBooter.ps1"</b>
 
-And the Start In as <b>"C:\YOURFOLDER"
+And the Start In as <b>"C:\YOURFOLDER"</b>
