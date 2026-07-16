@@ -8,6 +8,6 @@ It works by you setting up 3 files
 2. The scratch booter powershell script
 3. A windows shortcut (not provided) that points to the booter .ps1
 
-The shortcut should have the Target as C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\YOURFOLDER\QGISProjectScratchBooter.ps1"
+The shortcut should have the Target as <b>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\YOURFOLDER\QGISProjectScratchBooter.ps1"</b>
 
-And the Start In as "C:\YOURFOLDER"
+And the Start In as <b>"C:\YOURFOLDER"
